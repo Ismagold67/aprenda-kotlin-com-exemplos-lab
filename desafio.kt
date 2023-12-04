@@ -21,9 +21,9 @@ fun main() {
     val conteudo4 = ConteudoEducacional("Orientação a Objetos e Tipos de Classes na Prática com Kotlin", duracao = 120)
     val conteudo5 = ConteudoEducacional("O Poder das Funções em Kotlin", duracao = 120)
     val conteudo6 = ConteudoEducacional("Tratamento de Exceções em Kotlin", duracao = 120)
-	val conteudo7 = ConteudoEducacional("Abstraindo Formações da DIO Usando Orientação a Objetos com Kotlin", duracao = 120)
+    val conteudo7 = ConteudoEducacional("Abstraindo Formações da DIO Usando Orientação a Objetos com Kotlin", duracao = 120)
     
-	val formacaoEmKotlin = Formacao("Formação em Kotlin DIO", Nivel.INTERMEDIARIO, mutableListOf(conteudo, conteudo2, conteudo3, conteudo4, conteudo5, conteudo6, conteudo7))
+    val formacaoEmKotlin = Formacao("Formação em Kotlin DIO", Nivel.INTERMEDIARIO, mutableListOf(conteudo, conteudo2, conteudo3, conteudo4, conteudo5, conteudo6, conteudo7))
     
     val usuario1 = Usuario("Ismael Gonçalves", 23)
     val usuario2 = Usuario("Tainara Oliveira", 20)
