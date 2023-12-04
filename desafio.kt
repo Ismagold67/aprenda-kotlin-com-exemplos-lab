@@ -10,13 +10,10 @@ data class Formacao(val nome: String, val nivel: Nivel, var conteudos: List<Cont
     
     fun matricular(usuario: Usuario) {
         inscritos.add(usuario)
-        //TODO("Utilize o parâmetro $usuario para simular uma matrícula (usar a lista de $inscritos).")
     }
 }
 
 fun main() {
-    //TODO("Analise as classes modeladas para este domínio de aplicação e pense em formas de evoluí-las.")
-    //TODO("Simule alguns cenários de teste. Para isso, crie alguns objetos usando as classes em questão.")
     var cont = 1
     val conteudo = ConteudoEducacional("Conhecendo o Kotlin e sua documentação oficial")
     val conteudo2 = ConteudoEducacional("Introdução prática à Linguagem de Programação Kotlin ", duracao = 120)
